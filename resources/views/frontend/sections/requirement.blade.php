@@ -5,7 +5,7 @@
               <h2 class="h1 gradient-text">Persyaratan Pendaftaran</h2>
           </div>
           <div class="row">
-              <div class="col-lg-6" data-aos="fade-right">
+              <div class="col-lg-6" data-aos="fade-up">
                   <div class="tech-card">
                       <h4 class="neon-text mb-4">Dokumen yang Diperlukan</h4>
                       <div class="table-responsive">
@@ -34,7 +34,7 @@
                       </div>
                   </div>
               </div>
-              <div class="col-lg-6" data-aos="fade-left">
+              <div class="col-lg-6" data-aos="fade-up">
                   <div class="tech-card">
                       <h4 class="neon-text mb-4">Langkah Pendaftaran</h4>
                       <div class="d-flex align-items-center mb-3">

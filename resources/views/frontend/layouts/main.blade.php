@@ -32,10 +32,10 @@
 
 <body>
 
-    <a href="{{ !empty($setting->whatsapp) ? 'https://wa.me/' . $setting->whatsapp : 'javascript:void(0);' }}" target="_blank"
+    {{-- <a href="{{ !empty($setting->whatsapp) ? 'https://wa.me/' . $setting->whatsapp : 'javascript:void(0);' }}" target="_blank"
         class="whatsapp-float d-flex align-items-center justify-content-center {{ empty($setting->whatsapp) ? 'disabled' : '' }}">
         <i class="bi bi-whatsapp"></i>
-    </a>
+    </a> --}}
 
     @include('frontend.layouts.header')
     @yield('content')

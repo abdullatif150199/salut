@@ -2,7 +2,7 @@
 <section id="about" class="section-padding">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6" data-aos="fade-right">
+            <div class="col-lg-6" data-aos="fade-up">
                 <h2 class="h1 mb-4 gradient-text">Tentang SALUT Digitech</h2>
                 <p class="lead mb-4">SALUT Digitech adalah platform inovatif yang menggabungkan teknologi VR dan
                     digital learning untuk memberikan pengalaman pendidikan yang tak terlupakan.</p>
@@ -27,7 +27,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6" data-aos="fade-left">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="tech-card">
                     <i class="fas fa-rocket fa-3x neon-text mb-3"></i>
                     <h4>Visi Kami</h4>
