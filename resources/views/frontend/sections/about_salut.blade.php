@@ -47,7 +47,7 @@
             <p class="lead">Sistem Aplikasi Layanan Universitas Terbuka</p>
         </div>
         <div class="row">
-            <div class="col-lg-6 mb-4" data-aos="slide-right">
+            <div class="col-lg-6 mb-4" data-aos="fade-up">
                 <div class="tech-card h-100">
                     <i class="fas fa-university fa-3x neon-text mb-3"></i>
                     <h4>Layanan Terpadu</h4>
@@ -55,7 +55,7 @@
                         administrasi akademik untuk mahasiswa Universitas Terbuka.</p>
                 </div>
             </div>
-            <div class="col-lg-6 mb-4" data-aos="slide-left">
+            <div class="col-lg-6 mb-4" data-aos="fade-up">
                 <div class="tech-card h-100">
                     <i class="fas fa-mobile-alt fa-3x neon-text mb-3"></i>
                     <h4>Akses Digital</h4>
