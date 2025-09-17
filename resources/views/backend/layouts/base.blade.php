@@ -26,7 +26,7 @@
     <link rel="stylesheet"
         href="{{ asset('backend-assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css') }}">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="{{ asset('backend-assets/css/style.css') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('backend-assets/css/style.css') }}"> --}}
     <link rel="stylesheet" href="{{ asset('backend-assets/css/skin-2.css') }}">
 
     {{-- toastrs --}}
