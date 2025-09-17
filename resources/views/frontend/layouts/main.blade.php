@@ -26,16 +26,51 @@
 
     {{-- swipper --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+        .btn-daftar {
+            background: linear-gradient(45deg, #06b6d4, #ec4899);
+            border: none;
+            color: #fff !important;
+            font-weight: 600;
+            padding: 0.6rem 1.4rem;
+            border-radius: 50px;
+            box-shadow: 0 4px 15px rgba(0, 184, 148, 0.4);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* .btn-daftar::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.2);
+            transition: all 0.4s ease;
+        } */
+
+        .btn-daftar:hover::before {
+            left: 100%;
+        }
+
+        .btn-daftar:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 184, 148, 0.6);
+        }
+    </style>
     @stack('styles')
 
 </head>
 
 <body>
 
-    {{-- <a href="{{ !empty($setting->whatsapp) ? 'https://wa.me/' . $setting->whatsapp : 'javascript:void(0);' }}" target="_blank"
+    <a href="{{ !empty($setting->whatsapp) ? 'https://wa.me/' . $setting->whatsapp : 'javascript:void(0);' }}"
+        target="_blank"
         class="whatsapp-float d-flex align-items-center justify-content-center {{ empty($setting->whatsapp) ? 'disabled' : '' }}">
         <i class="bi bi-whatsapp"></i>
-    </a> --}}
+    </a>
 
     @include('frontend.layouts.header')
     @yield('content')

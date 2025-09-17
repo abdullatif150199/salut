@@ -11,7 +11,7 @@
 
         .gallery-item img {
             width: 100%;
-            height: 220px;
+            height: 250px;
             object-fit: cover;
             display: block;
             transition: transform 0.3s ease;
@@ -138,7 +138,7 @@
 
         @media (max-width: 768px) {
             .gallery-item img {
-                height: 160px;
+                height: 250px;
             }
 
             .popup img {
