@@ -50,6 +50,17 @@
         trix-editor.trix-content {
             min-height: 300px;
         }
+        .neon-text {
+            color: #06b6d4;
+            text-shadow: 0 0 10px #06b6d4;
+        }
+
+        .gradient-text {
+            background: linear-gradient(45deg, #06b6d4, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
     </style>
 
 </head>
