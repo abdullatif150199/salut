@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="{{ asset('backend-assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('backend-assets/css/skin-2.css') }}">
 
-    {{-- toastr --}}
+    {{-- toastrs --}}
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
 
     <!-- Datatable -->
