@@ -4,7 +4,7 @@
  <div class="nav-header d-flex align-items-center" style="background-color: rgba(8, 15, 32, 0.95);">
      <a href="#" class="brand-logo d-flex align-items-center">
          <img class="logo-abbr me-2" src="{{ asset('assets/img/logo.svg') }}" alt="">
-         <span class="brand-text text-white fw-bold fs-5 ml-3 d-none d-lg-block" style="color: #06b6d4 !important;">SALUT
+         <span class="brand-text text-white fw-bold fs-5 ml-3 d-none d-lg-block gradient-text" >SALUT
              DIGITECH</span>
      </a>
 
@@ -149,54 +149,68 @@
         ***********************************-->
  <div class="dlabnav" style="background-color: rgba(15, 23, 42, 0.95);">
      <div class="dlabnav-scroll">
-         <ul class="metismenu" id="menu" >
-             <li class="nav-label first" style="color: #06b6d4 !important;">Main Menu</li>
+         <ul class="metismenu" id="menu">
+             {{-- <li class="nav-label first neon-text " style="color: #06b6d4 !important;">Main Menu</li> --}}
 
              <!-- Dashboard -->
              <li>
-                 <a class="ai-icon" href="/dashboard" aria-expanded="false" style="color: #06b6d4 !important;">
-                     <i class="la la-home" style="color: #06b6d4 !important;"></i>
-                     <span class="nav-text" style="color: #06b6d4 !important;">Dashboard</span>
+                 <a class="ai-icon" href="/dashboard" aria-expanded="false">
+                     <i class="la la-home neon-text" ></i>
+                     <span class="nav-text neon-text" >Dashboard</span>
                  </a>
              </li>
 
              <li>
                  <a class="ai-icon" href="{{ route('categories.index') }}" aria-expanded="false"
                      style="color: #06b6d4 !important;">
-                     <i class="la la-bars" style="color: #06b6d4 !important;"></i>
-                     <span class="nav-text" style="color: #06b6d4 !important;">Kategori Artikel</span>
+                     <i class="la la-bars neon-text" ></i>
+                     <span class="nav-text neon-text" >Kategori Artikel</span>
                  </a>
              </li>
 
              <li>
                  <a class="ai-icon" href="{{ route('articles.index') }}" aria-expanded="false"
                      style="color: #06b6d4 !important;">
-                     <i class="la la-book" style="color: #06b6d4 !important;"></i>
-                     <span class="nav-text" style="color: #06b6d4 !important;">Artikel</span>
+                     <i class="la la-book neon-text" ></i>
+                     <span class="nav-text neon-text" >Artikel</span>
                  </a>
              </li>
 
              <li>
                  <a class="ai-icon" href="{{ route('galleries.index') }}" aria-expanded="false"
                      style="color: #06b6d4 !important;">
-                     <i class="la la-image" style="color: #06b6d4 !important;"></i>
-                     <span class="nav-text" style="color: #06b6d4 !important;">Galeri</span>
+                     <i class="la la-image neon-text"></i>
+                     <span class="nav-text neon-text">Galeri</span>
+                 </a>
+             </li>
+
+             <li>
+                 <a class="ai-icon" href="{{ route('testimonials.index') }}" aria-expanded="false"
+                     style="color: #06b6d4 !important;">
+                     <i class="la la-comments neon-text" ></i>
+                     <span class="nav-text neon-text" >Testimoni</span>
                  </a>
              </li>
 
              <li>
                  <a class="ai-icon" href="{{ route('youtube.index') }}" aria-expanded="false"
                      style="color: #06b6d4 !important;">
-                     <i class="la la-youtube" style="color: #06b6d4 !important;"></i>
-                     <span class="nav-text" style="color: #06b6d4 !important;">Embed Youtube</span>
+                     <i class="la la-youtube neon-text"></i>
+                     <span class="nav-text neon-text">Embed Youtube</span>
+                 </a>
+             </li>
+             <li>
+                 <a class="ai-icon" href="{{ route('faqs.index') }}" aria-expanded="false" style="color: #06b6d4 !important;">
+                     <i class="la la-question-circle neon-text"></i>
+                     <span class="nav-text neon-text">FAQ</span>
                  </a>
              </li>
 
              <li>
                  <a class="ai-icon" href="{{ route('settings.show') }}" aria-expanded="false"
                      style="color: #06b6d4 !important;">
-                     <i class="la la-cog" style="color: #06b6d4 !important;"></i>
-                     <span class="nav-text" style="color: #06b6d4 !important;">Setting</span>
+                     <i class="la la-cog neon-text"></i>
+                     <span class="nav-text neon-text">Setting</span>
                  </a>
              </li>
          </ul>

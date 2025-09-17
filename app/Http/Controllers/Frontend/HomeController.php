@@ -13,7 +13,9 @@ class HomeController extends Controller
         $articles = \App\Models\Article::latest()->take(10)->get();
         $videos = \App\Models\Youtube::latest()->take(10)->get();
         $settings = \App\Models\Setting::first();
-        return view('frontend.pages.home.index', compact('galleries', 'articles', 'videos', 'settings'));
+        $testimonials = \App\Models\Testimonial::latest()->take(10)->get();
+        $faqs = \App\Models\Faq::all();
+        return view('frontend.pages.home.index', compact('galleries', 'articles', 'videos', 'settings', 'testimonials', 'faqs'));
     }
 
     public function detailArticle($slug)

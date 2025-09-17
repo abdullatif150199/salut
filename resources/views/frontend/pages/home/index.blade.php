@@ -14,8 +14,14 @@
 
     @include('frontend.sections.service')
     @include('frontend.sections.article')
+    @if ($testimonials->count() > 0)
+        @include('frontend.sections.testimonial')
+    @endif
     @if ($videos->count() > 0)
         @include('frontend.sections.youtube_section')
+    @endif
+    @if ($faqs->count() > 0)
+        @include('frontend.sections.faq')
     @endif
     @include('frontend.sections.registration_form')
     {{-- @include('frontend.home.sections.contact') --}}
